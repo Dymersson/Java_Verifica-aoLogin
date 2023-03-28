@@ -1,0 +1,22 @@
+<DOCTYPE HTML>
+<html>
+    <head>
+        <body>
+            <script language= javascript type ="text/javascript">
+            const _Login = "Meu login";
+            const _Senha = "Minha senha";
+
+            var L = prompt("Login:  ");
+            var S = prompt("Senha: ");
+
+            if(L == _Login && S == _Senha){
+                document.write("Login OK!");
+            }else {
+                document.write("Login falhou");
+            }
+                     
+    </script>
+    </body>
+</head>
+</html>
+</DOCTYPE>
